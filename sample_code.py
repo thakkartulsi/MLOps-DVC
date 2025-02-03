@@ -12,7 +12,9 @@ data = {
 df = pd.DataFrame(data)
 
 # adding new row 
-df.loc[len(df)] = ['P04', 'Smartwatch', 10000]
+# df.loc[len(df)] = ['P04', 'Smartwatch', 10000]
+
+df.loc[len(df)] = ['P05', 'Headphones', 3000]
 
 # defining the directory to store data
 data_dir = 'data'
