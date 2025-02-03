@@ -11,6 +11,9 @@ data = {
 # converting the data to pandas dataframe
 df = pd.DataFrame(data)
 
+# adding new row 
+df.loc[len(df)] = ['P04', 'Smartwatch', 10000]
+
 # defining the directory to store data
 data_dir = 'data'
 
